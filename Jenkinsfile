@@ -25,7 +25,7 @@ stages {
   
     stage('Deploy') {
     steps {
-      sh 'sudo cp  /home/ubuntu/jenkin-1/workspace/parallel/target/*.war /opt/apache-tomcat-9.0.64/webapps/'
+      sh 'sudo cp  /home/ubuntu/jenkin-1/workspace/testing2/target/*.war /opt/apache-tomcat-9.0.64/webapps/'
     }
   }
 
